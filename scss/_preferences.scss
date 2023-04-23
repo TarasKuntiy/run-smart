@@ -1,0 +1,37 @@
+.preferences {
+  padding: 83px 0;
+  min-height: 473px;
+  background-color: #f6f6f6;
+  &__wrapper {
+    display: flex;
+    gap: 70px;
+    margin-top: 60px;
+  }
+  &__item {
+    max-width: 277px;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+  &__info {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 129%;
+    color: #0d0d0d;
+  }
+  &__about {
+    margin-top: 20px;
+    max-width: 277px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: #0d0d0d;
+    span {
+      text-decoration-line: underline;
+      color: #ff0000;
+    }
+  }
+}
+

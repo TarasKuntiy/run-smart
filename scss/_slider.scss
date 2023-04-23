@@ -1,0 +1,24 @@
+.slider{
+    position: relative;
+    padding: 81px 0;
+    &__wrapper{
+        margin: 0 auto;
+        width: 750px;
+    }
+}
+.slick-prev, .slick-next{
+    position: absolute;
+    top: 50%;
+    left: -66px; 
+    text-transform: translateY(-50%);
+
+    border: none;
+    background-color: #fff;
+    img{
+width: 33%;
+    }
+}
+.slick-next{
+    right: -66px;
+    left: auto;
+}
